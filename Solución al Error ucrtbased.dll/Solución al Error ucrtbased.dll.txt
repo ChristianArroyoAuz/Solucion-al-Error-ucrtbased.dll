@@ -1,0 +1,5 @@
+Si se presenta un error similar al siguiente:
+Excepción producida en 0x0FA4D4EC (ucrtbased.dll) en Ordenamiento Edades.exe: 0xC0000005: Infracción de acceso al escribir en la ubicación 0x00FC0000.
+Se debe especificar la longitud de la cadena de lectura en scanf_s("%s", &nombre1);
+De la siguiente manera: scanf_s("%s", &nombre1, 100);
+Ver las imagenes adjuntas.
