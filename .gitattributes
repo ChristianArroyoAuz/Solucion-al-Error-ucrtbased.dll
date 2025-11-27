@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+# Forzar DLL como Text (aunque sea binario)
+*.dll linguist-language=Text
+
+# El archivo txt ya se detecta automáticamente como Text
+*.txt linguist-language=Text
