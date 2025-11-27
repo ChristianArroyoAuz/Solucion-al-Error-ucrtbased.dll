@@ -4,3 +4,6 @@
 
 # El archivo txt ya se detecta automáticamente como Text
 *.txt linguist-language=Text
+
+# Hacer que GitHub re-analice
+* linguist-detectable=true
